@@ -2,7 +2,7 @@ FROM python:3.9-slim-buster
 
 ENV TZ=Asia/Shanghai
 
-RUN pip3 install --upgrade --no-cache-dir \
+RUN pip3 install --upgrade --no-cache-dir pip \
 &&  pip3 install --no-cache-dir tornado numpy opencv-python-headless onnxruntime Shapely pyclipper Pillow \
 &&  apt update \
 &&  apt upgrade -y \
