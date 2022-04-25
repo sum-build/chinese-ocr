@@ -1,0 +1,7 @@
+tornado
+numpy
+opencv-python-headless
+onnxruntime
+Shapely
+pyclipper
+Pillow
